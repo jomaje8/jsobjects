@@ -12,7 +12,7 @@ function playa () {
 var player1 = new playa();
 var player2 = new playa();
 
-function updatePlayer(currentPlayer) {
+function updatePlayer(currentPlayer, healthUpdate, ammo) {
 currentPlayer.name = prompt("Enter a name for currentPlayer");
 alert("currentPlayer's name is " + currentPlayer.name + ".");
 currentPlayer.health = healthUpdate;
