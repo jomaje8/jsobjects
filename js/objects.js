@@ -5,6 +5,7 @@ var Robot = {
     speed: 10,
     stregnth: 5,
     armor: "light",
+    
 
     AddFuel: function (tank){
         this.fuel += tank;
@@ -19,7 +20,7 @@ var Robot = {
     },
 }
 
-Robot.UpgradeArmor();
+
 
 Robot.speed += parseInt(prompt("Increase Robot speed."));
 alert("Our robot now has a speed of " + Robot.speed + ".");
